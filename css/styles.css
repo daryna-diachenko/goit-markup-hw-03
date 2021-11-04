@@ -47,7 +47,7 @@ body {
   color: var(--logo-text-color);
 }
 
-.nav-list .link {
+.nav-list-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -55,7 +55,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.nav-contacts .link {
+.nav-contacts-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -63,11 +63,11 @@ body {
   color: var(--primary-text-color);
 }
 
-.nav-list .link:hover,
-.nav-list .link:focus,
-.nav-list .link.current,
-.nav-contacts .link:hover,
-.nav-contacts .link:focus {
+.nav-list-link:hover,
+.nav-list-link:focus,
+.nav-list-link.current,
+.nav-contacts-link:hover,
+.nav-contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -97,7 +97,7 @@ body {
   cursor: pointer;
 }
 
-/* Section */
+/* Sections */
 
 .section-title {
   font-weight: 700;
@@ -107,14 +107,14 @@ body {
   color: var(--secondary-text-color);
 }
 
-.section-item .title {
+.section-item-title {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 
-.section-item .text {
+.section-item-text {
   line-height: 1.71;
 }
 
@@ -128,7 +128,7 @@ body {
   background-color: var(--primary-background-color);
 }
 
-.team-card .title {
+.team-card-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -136,13 +136,13 @@ body {
   color: var(--secondary-text-color);
 }
 
-.team-card .text {
+.team-card-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-/* Футер */
+/* Footer */
 
 .footer {
   background-color: var(--footer-background-color);
@@ -153,24 +153,20 @@ body {
   color: var(--primary-background-color);
 }
 
-.contacts .link {
+.contacts-link {
   font-style: normal;
   line-height: 1.71;
 }
 
-.location .link {
-  color: var(--primary-background-color);
-}
-
-.contact .link {
+.contacts-link.transparent {
   color: var(--contacts-text-color);
 }
 
 /* Стили Портфолио */
 
-/* Buttons */
+/* Filter buttons */
 
-.button.filter {
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -179,19 +175,19 @@ body {
   cursor: pointer;
 }
 
-.button.filter:hover,
-.button.filter:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
 }
 
 /* Section */
 
-.section-project .link {
+.project-item-link {
   text-decoration: none;
 }
 
-.section-project .title {
+.project-item-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -199,7 +195,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.section-project .text {
+.project-item-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);

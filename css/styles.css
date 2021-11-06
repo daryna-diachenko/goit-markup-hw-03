@@ -57,13 +57,11 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-/* Main nav */
-
 .header-main-nav {
   display: flex;
 }
 
-/* Logo */
+/* -------------------LOGO----------------------- */
 
 .logo {
   font-family: Raleway;
@@ -76,7 +74,7 @@ body {
   color: var(--accent-color);
 }
 
-/* Nav */
+/* ------------------HEADER-NAV -----------------------*/
 
 .header-nav {
   display: flex;
@@ -174,6 +172,7 @@ body {
 }
 
 /* -------------------SECTIONS---------------------- */
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -246,6 +245,7 @@ body {
 .team-item-title {
   margin-top: 30px;
   margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -256,6 +256,7 @@ body {
 .team-item-text {
   margin-top: 0;
   margin-bottom: 30px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -306,7 +307,6 @@ body {
 }
 
 .filter-button {
-  /* display: inline-block; */
   min-width: 73px;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -346,6 +346,7 @@ body {
 .project-title {
   margin-top: 0;
   margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -356,6 +357,7 @@ body {
 .project-text {
   margin-top: 0;
   margin-bottom: 0;
+
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);

@@ -17,6 +17,13 @@ body {
   background-color: var(--primary-background-color);
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -25,6 +32,13 @@ body {
 
 .link {
   text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -134,12 +148,12 @@ body {
 /* -------------------HERO---------------------- */
 
 .hero {
+  padding: 200px 0;
   text-align: center;
   background-color: var(--footer-background-color);
 }
 
 .hero-title {
-  margin-top: 0;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -183,7 +197,6 @@ body {
 }
 
 .section-title {
-  margin-top: 0;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -202,7 +215,6 @@ body {
 }
 
 .section-item-title {
-  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -212,8 +224,6 @@ body {
 }
 
 .section-item-text {
-  margin-top: 0;
-  margin-bottom: 0;
   line-height: 1.71;
 }
 
@@ -240,6 +250,11 @@ body {
 
 .team-item + .team-item {
   margin-left: 30px;
+}
+
+.team-thumb {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .team-item-title {
@@ -299,7 +314,7 @@ body {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
@@ -361,10 +376,6 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
-}
-
-.project-image {
-  display: block;
 }
 
 .project-border {
